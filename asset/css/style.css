@@ -1,0 +1,468 @@
+@font-face {
+    font-family: "Font_katakana";
+    src: url('../font/katakana.ttf');
+}
+
+body {
+    background-color: white;
+}
+
+.but_entry {
+    background-color: rgb(31, 43, 118);
+    font-weight: bold;
+}
+
+.katakana {
+    font-family: "Font_katakana";
+}
+
+h2 {
+    font-size: 77px;
+    color: rgb(31, 43, 118)
+}
+
+h3 {
+    font-size: 43px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.p_abu {
+    font-size: 18px;
+    color: gray;
+}
+
+.s5ths,
+.m5ths,
+.l5ths,
+.xl5ths {
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s5ths {
+    width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+    .row .col.m5ths {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .row .col.l5ths {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .row .col.xl5ths {
+        width: 20%;
+    }
+}
+
+@media(min-width:992px) {
+    .txt_jumbotron {
+        text-align: center;
+        color: white;
+        font-size: 80px;
+        font-weight: bold;
+        position: absolute;
+        top: 342px;
+        left: 25%;
+    }
+    .jumbotron_img {
+        width: 1600px;
+        height: 930px;
+    }
+    .card {
+        width: 320px;
+        height: 520px;
+        background-color: white;
+    }
+    div.transbox {
+        background-color: #100aaf;
+        border: 1px solid black;
+        opacity: 0.6;
+        filter: alpha(opacity=80);
+        width: 320px;
+        height: 520px;
+        /* For IE8 and earlier */
+    }
+    .text_card_jumbotron {
+        margin-bottom: 0%;
+        top: 793px;
+        position: absolute;
+        left: 20%;
+        width: 1021px;
+        height: 153px;
+    }
+    .text_card_jumbotron div {
+        font-size: 43px;
+        font-weight: bold;
+        text-align: center;
+        color: #0000cc;
+    }
+    .content p {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Font_katakana";
+    }
+    .p1 div {
+        color: white;
+        text-align: center;
+    }
+    .p2 {
+        background-image: url("../img/bg_panel2.png");
+        height: 521px;
+    }
+    .p2 div {
+        color: white;
+        text-align: center;
+    }
+    .p3 {
+        background-image: url("../img/bg_panel3.png");
+        height: 521px;
+    }
+    .p3 div {
+        color: white;
+        text-align: center;
+    }
+    .p4 {
+        background-image: url("../img/bg_panel4.png");
+        height: 521px;
+    }
+    .p4 div {
+        color: white;
+        text-align: center;
+    }
+    .p5 {
+        background-image: url("../img/bg_panel5.png");
+        height: 521px;
+    }
+    .p5 div {
+        color: white;
+        text-align: center;
+    }
+    div.transbox p {
+        margin: 30%;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+    }
+    .text_tengah {
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -o-transform: translate(-50%);
+    }
+    .panel_100 {
+        width: 1120px;
+        height: 300px;
+        position: relative;
+        top: 98px;
+        background-image: url("../img/レイヤー\ 7.png");
+    }
+    .panel_100 center {
+        position: inherit;
+        top: 100px;
+    }
+    .panel_100 h3 {
+        color: white;
+    }
+    .panel_100 p {
+        color: white;
+    }
+    .more {
+        position: inherit;
+        top: 20px;
+        left: 43%
+    }
+    .projek_story {
+        position: relative;
+        top: 200px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .projek_story img {
+        width: 1075px;
+        height: 480px;
+    }
+    .projek_story h2 {
+        position: relative;
+        top: 167px;
+        LEFT: 2%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .col_btn_ps {
+        position: relative;
+        top: -96px;
+        width: 681.4px;
+        left: 60%;
+    }
+    .btn-ps {
+        z-index: 3;
+        top: 400px;
+        left: 46%;
+        position: absolute;
+        width: 681px;
+        height: 81px;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps2 {
+        z-index: 3;
+        width: 681px;
+        height: 81px;
+        position: relative;
+        top: 17px;
+        left: 46%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps i {
+        color: white;
+        position: relative;
+        left: 50%;
+    }
+    .btn-ps2 i {
+        color: white;
+        position: inherit;
+        left: 50%;
+    }
+    .work_style {
+        position: relative;
+        top: 313px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .work_style img {
+        width: 1075px;
+        height: 480px;
+    }
+    .work_style h2 {
+        position: relative;
+        left: 7%;
+        top: 165px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-ws {
+        z-index: 3;
+        width: 681px;
+        height: 81px;
+        position: relative;
+        top: -44px;
+        left: 8%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ws i {
+        color: white;
+        position: inherit;
+        left: 50%;
+    }
+    .interview {
+        position: relative;
+        top: 386px;
+        background-image: url("../img/bg_gray4.jpg");
+        background-repeat: no-repeat;
+    }
+    .interview img {
+        width: 550px;
+        height: 420px;
+        position: relative;
+        left: 12%;
+    }
+    .interview h2 {
+        position: relative;
+        left: 7%;
+        top: 146px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-i-1 {
+        position: relative;
+        top: 315px;
+        width: 51px;
+        height: 51px;
+        left: 12%;
+        background-color: rgb(25, 52, 230);
+    }
+    .btn-i-2 {
+        position: absolute;
+        top: 368px;
+        left: 81.5%;
+        z-index: 3;
+        width: 51px;
+        height: 51px;
+        background-color: rgb(25, 52, 230);
+    }
+    .n_interview {
+        position: relative;
+        left: 7.5%;
+        top: -156px;
+    }
+    .b_interview {
+        position: inherit;
+        top: -132px;
+        left: 20%;
+    }
+    .c_interview-1 {
+        width: 551px;
+        height: 70px;
+    }
+    .c_interview-1 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-1 div i {
+        position: relative;
+        left: 60%;
+    }
+    .c_interview-2 {
+        width: 551px;
+        height: 70px;
+        position: inherit;
+        left: 2%;
+    }
+    .c_interview-2 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-2 div i {
+        position: relative;
+        left: 60%;
+    }
+    .panel_4 {
+        position: relative;
+        top: 375px;
+    }
+    .r_panel_4 {
+        position: absolute;
+        top: 154px;
+        left: 11%;
+    }
+    .panel_4 img {
+        z-index: 1;
+        width: 1600px;
+        height: 820px;
+    }
+    .r_panel_4 img {
+        width: 551px;
+        height: 301px;
+    }
+    .r_panel_4-2 {
+        position: absolute;
+        top: 466px;
+        left: 11%;
+    }
+    .r_panel_4-2 img {
+        width: 551px;
+        height: 301px;
+    }
+    .r_panel_4 p {
+        width: 551px;
+        height: 81px;
+    }
+    .r_panel_4-2 p {
+        width: 551px;
+        height: 81px;
+    }
+    .cards1 button {
+        position: absolute;
+        top: 245px;
+        left: 1%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards2 button {
+        position: absolute;
+        top: 245px;
+        left: 52%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards3 button {
+        position: absolute;
+        top: 245px;
+        left: 1%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards4 button {
+        position: absolute;
+        top: 245px;
+        left: 52%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .blog {
+        position: relative;
+        top: 496px;
+    }
+    .b_row {
+        position: relative;
+        left: 13%;
+    }
+    .b_row p {
+        text-align: justify;
+    }
+    .recruit {
+        position: relative;
+        top: 584px;
+    }
+    .r_row {
+        position: relative;
+        left: 13%;
+        z-index: 2;
+    }
+    .r_row div img {
+        width: 267px;
+        height: 265px;
+    }
+    .r_row div p {
+        position: relative;
+        top: -64px;
+    }
+    .bottom {
+        position: relative;
+        top: 440px;
+        z-index: 1;
+    }
+    .btn-buttom {
+        z-index: 3;
+        position: relative;
+        top: -156px;
+        width: 361px;
+        height: 81px;
+        text-decoration-color: white;
+        font-size: 21px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(22, 17, 83);
+    }
+    footer {
+        position: relative;
+        top: 176px;
+        z-index: 2;
+    }
+    .bg-dark-blue {
+        background-color: rgb(22, 17, 83);
+        width: 1600px;
+    }
+    .p1 {
+        background-image: url("../img/bg_panel1.png");
+        height: 521px;
+    }
+}
